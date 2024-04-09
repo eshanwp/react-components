@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Input from 'components/input/input.tsx';
+import RcInput from 'components/input/rc-input.tsx';
 
 const meta = {
-    title: 'Components/Input',
-    component: Input,
+    title: 'Components/RcInput',
+    component: RcInput,
     tags: ['autodocs'],
-} satisfies Meta<typeof Input>;
+} satisfies Meta<typeof RcInput>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
